@@ -1,0 +1,28 @@
+#covid-19{
+    background-color: rgb(15, 15, 15);
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: larger;
+    font-family:sans-serif;
+    color: white;
+}
+#search-field{
+    text-align:center;
+}
+
+#button{
+    font-size: larger;
+    color: white;
+    background-color:black;
+}
+#country-name{
+    font-size: larger;
+    background-color:white;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(14, 109, 197);
+}
