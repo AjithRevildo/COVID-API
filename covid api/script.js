@@ -16,20 +16,21 @@ function process(){
         var code=result[i].CountryCode
         var date=result[i].Deaths
         var death=result[i].Confirmed
-
+//DOM
 //document created in html in div
 
        var div=document.createElement('div');
-       
+     //DOM  
   //innerhtml element can be be gived     
 
        div.innerHTML=`<div> Date: ${date},CountryCode:${code},Death: ${death},Confirmed cases:${compute}</div> `;
       
-  //append the div     
+  //append     
 
        document.body.append(div);
     }
      
     }
+    //call function
     process();
 }
